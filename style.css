@@ -1,0 +1,446 @@
+@charset "UTF-8";
+/* Theme Name:Thème final_project
+Description:Thème personnalisé pour le site du meetingthestars
+Version:0.1
+Author:Nataly
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*style for the nav and the header*/
+  /*style for the index page (home)*/
+  /*style for the blog page */
+  /*style for the page single ( individual articles) */
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10rem;
+}
+
+body header a img {
+  height: 150px;
+  width: 150px;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+}
+
+body header nav li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+body header nav li a {
+  font-family: 'RocknRoll One', sans-serif;
+  text-decoration: none;
+  color: #0B2F76;
+}
+
+body #index #hero {
+  font-family: 'RocknRoll One', sans-serif;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+}
+
+body #index #hero #texbut {
+  margin-left: 12%;
+  margin-top: 12%;
+}
+
+body #index #hero #texbut button {
+  background-color: #8CACEC;
+  padding: 12px 100px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-size: 25px;
+  color: white;
+  -webkit-box-shadow: 10px 10px 10px #8cacecb5;
+          box-shadow: 10px 10px 10px #8cacecb5;
+  border: #0B2F76;
+}
+
+body #index #hero #texbut h1 {
+  font-size: 5rem;
+  padding: 12px;
+}
+
+body #index #hero #texbut h2 {
+  font-size: 4rem;
+  padding: 12px;
+  color: #8CACEC;
+}
+
+body h3 {
+  font-family: 'RocknRoll One', sans-serif;
+  padding: 2rem;
+  font-size: 4.5rem;
+  text-align: center;
+  color: #0B2F76;
+}
+
+body .first_text {
+  font-family: 'Josefin Slab', serif;
+  color: #4078CC;
+  margin: 30% 20% auto auto;
+}
+
+body .second_text {
+  font-family: 'Josefin Slab', serif;
+  color: #4078CC;
+  margin: 25% 20% 20% 20%;
+}
+
+body .third_text {
+  font-family: 'Josefin Slab', serif;
+  color: #4078CC;
+  margin: 35% 20% auto;
+}
+
+body .fourth_text {
+  font-family: 'Josefin Slab', serif;
+  color: #4078CC;
+  margin: 5% 20% 5% 20%;
+}
+
+body #blog {
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+body #blog ul {
+  list-style: none;
+}
+
+body #blog #heroblog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body #blog #heroblog h1 {
+  color: white;
+  font-size: 5rem;
+  margin-left: 30%;
+}
+
+body #blog #blogcont {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #blog #blogcont #rctpstag {
+  width: 25%;
+}
+
+body #blog #blogcont #rctpstag h3 {
+  font-family: 'RocknRoll One', sans-serif;
+  color: #0B2F76;
+}
+
+body #blog #blogcont #rctpstag ul {
+  color: #4078CC;
+  margin: 5% 0 5% 15%;
+}
+
+body #blog #blogcont #rctpstag ul a {
+  padding: 1%;
+}
+
+body #blog #blogcont #allarticles {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body #blog #blogcont #allarticles h3 {
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: justify;
+  width: 54vw;
+}
+
+body #blog #blogcont #allarticles h3 a {
+  color: #0B2F76;
+}
+
+body #blog #blogcont #allarticles img {
+  height: 25rem;
+  width: 50rem;
+}
+
+body #blog #blogcont #allarticles p {
+  font-family: 'Josefin Slab', serif;
+  width: 52vw;
+  color: #4078CC;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+body #blog #blogcont #allarticles p a {
+  color: black;
+}
+
+body #blog #block-8 ul li {
+  margin: 25% 50% 25% 0;
+}
+
+body #blog #block-8 ul li a {
+  color: #4078CC;
+}
+
+body #actu h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+body #actu img {
+  margin: auto 10% auto 10%;
+  width: 80vw;
+  height: 80vh;
+}
+
+body #actu p {
+  margin: 0% 10% 1% 10%;
+}
+
+body #actu ol {
+  margin: 0% 10% 1% 10%;
+  border: solid #0B2F76;
+  width: 30vw;
+  height: 60vh;
+}
+
+body #actu ul,
+body #actu span {
+  margin: 0% 10% 1% 10%;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+body #actu #commentform {
+  font-family: 'RocknRoll One', sans-serif;
+  color: #0B2F76;
+  margin-bottom: 2rem;
+}
+
+body #actu #comments,
+body #actu #respond {
+  font-size: 1.5rem;
+  color: #0B2F76;
+  text-align: left;
+  margin-left: 8%;
+}
+
+body #actu #reply-title {
+  font-size: 1.5 rem;
+  color: #0B2F76;
+  text-align: left;
+}
+
+body #actu #comment {
+  margin: 0% 10% 1% 10%;
+  border: solid #0B2F76;
+  width: 30vw;
+  height: 60vh;
+}
+
+/*style for the about page */
+#about #heroabout {
+  font-family: 'RocknRoll One', sans-serif;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about #heroabout h1 {
+  font-size: 5rem;
+}
+
+.textabout1 {
+  font-family: 'Josefin Slab', serif;
+  color: #4078CC;
+  margin: 10% 0 auto 25%;
+}
+
+.textabout2 {
+  font-family: 'Josefin Slab', serif;
+  color: #4078CC;
+  margin: 20% 20% 20% auto;
+}
+
+.textabout3 {
+  font-family: 'Josefin Slab', serif;
+  color: #4078CC;
+  margin: 10% 10% auto 0;
+}
+
+.textabout4 {
+  font-family: 'Josefin Slab', serif;
+  color: #4078CC;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.photo {
+  margin: 10% 10% 10% 35%;
+}
+
+.imgabout1 {
+  margin: 10% 10% auto 25%;
+}
+
+.imgabout2 {
+  margin: auto 10% auto 25%;
+}
+
+.imgabout3 {
+  margin: auto 10% auto 35%;
+}
+
+.imgabout4 {
+  margin: auto 25% auto 10%;
+}
+
+/*style for the abot contact */
+#contact #herocontact {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+#contact h1 {
+  color: #4078CC;
+  margin: 3%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#contact #formbg {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 4rem;
+}
+
+#contact #formbg h2 {
+  color: white;
+  margin: 3%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#contact #formbg .formcont {
+  margin-left: 10%;
+  color: white;
+}
+
+#contact #formbg textarea {
+  width: 600px;
+}
+
+#contact button {
+  background-color: white;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/*style for the footer page for all pages*/
+#footer {
+  background-color: #0B2F76;
+  color: white;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 3rem;
+}
+
+#footer img {
+  height: 160px;
+  width: 160px;
+}
+
+#footer svg {
+  color: white;
+  height: 4rem;
+  width: 4rem;
+}
+
+#footer .textfooter p {
+  font-size: 1rem;
+  padding-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
